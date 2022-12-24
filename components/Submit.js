@@ -5,6 +5,7 @@ const Submit = (props) => {
   return (
     <TouchableOpacity
       style={[styles.container, { backgroundColor: props.color }]}
+      onPress={props.onPress}
     >
       <Text style={styles.submitText}>{props.title}</Text>
     </TouchableOpacity>

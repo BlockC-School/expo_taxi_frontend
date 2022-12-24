@@ -18,7 +18,7 @@ const Inputs = (props) => {
       ]}
     >
       <Input
-        placeholer={props.name}
+        placeholder={props.name}
         onFocus={onFocusChange}
         inputContainerStyle={styles.inputContainer}
         inputStyle={styles.inputText}
